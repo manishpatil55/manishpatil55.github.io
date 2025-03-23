@@ -1,0 +1,58 @@
+name: Build & Deploy Next.js with GitHub Contribution Snake
+
+on:
+  push:
+    branches:
+      - main  # Runs when you push to main
+  schedule:
+    - cron: "0 0 * * *"  # Runs daily at midnight UTC to update the snake animation
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 1: Generate GitHub Contribution Snake Animation
+      - name: Generate Snake Animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            public/snake.svg
+            public/snake.gif
+            public/snake-dark.svg
+
+      # Step 2: Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      # Step 3: Install Dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Step 4: Build Next.js App & Include Snake Animation
+      - name: Build and Export Next.js App
+        run: |
+          npm run build
+          touch out/.nojekyll  # Prevents GitHub Pages from ignoring _next folder
+          cp -r public out/public  # Ensure snake animation is included in the site
+
+      # Step 5: Upload artifact (Next.js + Snake Animation)
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./out
+
+      # Step 6: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
