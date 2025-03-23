@@ -24,7 +24,6 @@ jobs:
     - name: Build Next.js App & Ensure Export Directory
       run: |
         npm run build
-        npm run export
         mkdir -p out
         touch out/.nojekyll
         cp -r public out/public  # Ensure snake animation is included
