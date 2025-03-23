@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Add this line for static export
+  output: 'export', // Enables static export
+  basePath: '/your-repository-name', // Set this to match your repo name
+  assetPrefix: '/your-repository-name/', // Ensures correct asset loading
 
   webpack(config) {
     // Grab the existing rule that handles SVG imports
@@ -9,17 +11,15 @@ const nextConfig = {
     );
 
     config.module.rules.push(
-      // Reapply the existing rule, but only for svg imports ending in ?url
       {
         ...fileLoaderRule,
         test: /\.svg$/i,
         resourceQuery: /url/, // *.svg?url
       },
-      // Convert all other *.svg imports to React components
       {
         test: /\.svg$/i,
         issuer: fileLoaderRule.issuer,
-        resourceQuery: { not: [...fileLoaderRule.resourceQuery.not, /url/] }, // exclude if *.svg?url
+        resourceQuery: { not: [...fileLoaderRule.resourceQuery.not, /url/] },
         use: {
           loader: "@svgr/webpack",
           options: {
@@ -40,7 +40,6 @@ const nextConfig = {
       }
     );
 
-    // Modify the file loader rule to ignore *.svg, since we have it handled now.
     fileLoaderRule.exclude = /\.svg$/i;
 
     return config;
