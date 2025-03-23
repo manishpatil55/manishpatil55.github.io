@@ -29,6 +29,7 @@ jobs:
       - name: Build and Export Next.js App
         run: |
           npm run build
+          mkdir -p out  # Ensure out directory exists
           touch out/.nojekyll  # Prevents GitHub Pages from ignoring _next folder
 
       - name: Upload artifact
