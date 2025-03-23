@@ -1,28 +1,41 @@
-name: Build & Deploy Next.js with GitHub Contribution Snake
+name: Deploy Next.js App to GitHub Pages
 
 on:
   push:
     branches:
-      - main
+      - main  # Change if using a different branch
+
+permissions:
+  contents: read
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     permissions:
-      id-token: write  # Add this line
-      contents: read
-
+      pages: write
+      id-token: write
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
 
       - name: Install dependencies
         run: npm install
 
-      - name: Build
-        run: npm run build
+      - name: Build and Export Next.js App
+        run: |
+          npm run build
+          touch out/.nojekyll  # Prevents GitHub Pages from ignoring _next folder
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./out
 
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
