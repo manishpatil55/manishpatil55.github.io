@@ -10,7 +10,6 @@ const calistoga = Calistoga({
   weight:["400"],
 });
 
-
 export const metadata: Metadata = {
   title: "My Portfolio",
   description: "Personal Portfolio Website",
@@ -23,12 +22,26 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4RG9WHJGWL"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-4RG9WHJGWL');
+            `,
+          }}
+        />
+      </head>
       <body
-       className={twMerge(
-        inter.variable, 
-        calistoga.variable, 
-        "bg-gray-900 text-white antialiased font-sans"
-      )}
+        className={twMerge(
+          inter.variable, 
+          calistoga.variable, 
+          "bg-gray-900 text-white antialiased font-sans"
+        )}
       >
         {children}
       </body>
