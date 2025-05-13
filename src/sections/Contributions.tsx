@@ -39,8 +39,8 @@ export const ContributionsSection = () => {
             <Image
               src={
                 darkMode
-                  ? "https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/github-snake-dark.svg"
-                  : "https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/github-snake.svg"
+                  ? "https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/snake-dark.svg"
+                  : "https://raw.githubusercontent.com/manishpatil55/manishpatil55/output/snake.svg"
               }
               alt="GitHub Contributions Snake"
               width={1000}
