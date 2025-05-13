@@ -15,17 +15,11 @@ export const Footer = () => {
 
             {/* ✅ New Visitor Counter */}
             <div className="visitor-counter">
-              <a
-                href="https://profile-counter.glitch.me/manishpatil55"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
                 <img
                   src="https://profile-counter.glitch.me/manishpatil55/count.svg"
                   alt="Visitor Counter"
                   style={{
                     border: "none",
-                    height: "30px",
                   }}
                 />
               </a>
