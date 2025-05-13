@@ -10,21 +10,7 @@ export const Footer = () => {
 
       <div className="container">
         <div className="border-t border-white/15 py-6 text-sm flex flex-col md:flex-row md:justify-between items-center gap-8">
-          <div className="flex items-center gap-4 text-white/40">
-            <span>&copy; 2025. All rights reserved.</span>
-
-            {/* ✅ New Visitor Counter */}
-            <div className="visitor-counter">
-                <img
-                  src="https://profile-counter.glitch.me/manishpatil55/count.svg"
-                  alt="Visitor Counter"
-                  style={{
-                    border: "none",
-                  }}
-                />
-              </a>
-            </div>
-          </div>
+          <div className="text-white/40">&copy; 2025. All rights reserved.</div>
 
           <div>
             <nav className="flex flex-col md:flex-row items-center gap-8">
