@@ -77,7 +77,8 @@ export const HeroSection = () => {
           products at Upstatement
           </p>
           <p className="mt-4 text-center text-white/60 md:text-lg">
-          I&apos;m Manish Patil, a software engineer and CSE student with a passion for crafting seamless web experiences and intelligent applications. I enjoy turning ideas into reality through clean code and thoughtful design.
+          I&apos;m Manish Patil, a software engineer and CSE student with a passion for crafting seamless web experiences and intelligent applications. 
+          I enjoy turning ideas into reality through clean code and thoughtful design.
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
