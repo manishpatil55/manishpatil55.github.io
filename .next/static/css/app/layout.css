@@ -1,9 +1,9 @@
 /*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[14].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src/app/layout.tsx","import":"Inter","arguments":[{"subsets":["latin"],"variable":"--font-sans"}],"variableName":"inter"} ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src/app/layout.tsx","import":"Inter","arguments":[{"subsets":["latin"],"variable":"--font-sans"}],"variableName":"inter"} ***!
   \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Inter_d65c78';
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -12,7 +12,7 @@
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Inter_d65c78';
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -21,7 +21,7 @@
 }
 /* greek-ext */
 @font-face {
-  font-family: '__Inter_d65c78';
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -30,7 +30,7 @@
 }
 /* greek */
 @font-face {
-  font-family: '__Inter_d65c78';
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -39,7 +39,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Inter_d65c78';
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -48,32 +48,32 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Inter_d65c78';
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
-  src: url(/_next/static/media/6d93bde91c0c2823-s.woff2) format('woff2');
+  src: url(/_next/static/media/8e9860b6e62d6359-s.woff2) format('woff2');
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: '__Inter_d65c78';
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
-  src: url(/_next/static/media/a34f9d1faa5f3315-s.p.woff2) format('woff2');
+  src: url(/_next/static/media/e4af272ccee01ff0-s.p.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}@font-face {font-family: '__Inter_Fallback_d65c78';src: local("Arial");ascent-override: 90.49%;descent-override: 22.56%;line-gap-override: 0.00%;size-adjust: 107.06%
-}.__className_d65c78 {font-family: '__Inter_d65c78', '__Inter_Fallback_d65c78';font-style: normal
-}.__variable_d65c78 {--font-sans: '__Inter_d65c78', '__Inter_Fallback_d65c78'
+}@font-face {font-family: 'Inter Fallback';src: local("Arial");ascent-override: 90.44%;descent-override: 22.52%;line-gap-override: 0.00%;size-adjust: 107.12%
+}.__className_e8ce0c {font-family: 'Inter', 'Inter Fallback';font-style: normal
+}.__variable_e8ce0c {--font-sans: 'Inter', 'Inter Fallback'
 }
 
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[14].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src/app/layout.tsx","import":"Calistoga","arguments":[{"subsets":["latin"],"variable":"--font-serif","weight":["400"]}],"variableName":"calistoga"} ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src/app/layout.tsx","import":"Calistoga","arguments":[{"subsets":["latin"],"variable":"--font-serif","weight":["400"]}],"variableName":"calistoga"} ***!
   \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* vietnamese */
 @font-face {
-  font-family: '__Calistoga_137a1a';
+  font-family: 'Calistoga';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -82,28 +82,28 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Calistoga_137a1a';
+  font-family: 'Calistoga';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(/_next/static/media/434054b56f69d22a-s.woff2) format('woff2');
+  src: url(/_next/static/media/1d977140bc781f40-s.woff2) format('woff2');
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: '__Calistoga_137a1a';
+  font-family: 'Calistoga';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(/_next/static/media/56515b6b3a8d18de-s.p.woff2) format('woff2');
+  src: url(/_next/static/media/c2e245741bb6adef-s.p.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}@font-face {font-family: '__Calistoga_Fallback_137a1a';src: local("Arial");ascent-override: 97.98%;descent-override: 29.39%;line-gap-override: 0.00%;size-adjust: 102.06%
-}.__className_137a1a {font-family: '__Calistoga_137a1a', '__Calistoga_Fallback_137a1a';font-weight: 400;font-style: normal
-}.__variable_137a1a {--font-serif: '__Calistoga_137a1a', '__Calistoga_Fallback_137a1a'
+}@font-face {font-family: 'Calistoga Fallback';src: local("Arial");ascent-override: 97.98%;descent-override: 29.39%;line-gap-override: 0.00%;size-adjust: 102.06%
+}.__className_5618a9 {font-family: 'Calistoga', 'Calistoga Fallback';font-weight: 400;font-style: normal
+}.__variable_5618a9 {--font-serif: 'Calistoga', 'Calistoga Fallback'
 }
 
 /*!*****************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/app/globals.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/globals.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************/
 /*
 ! tailwindcss v3.4.7 | MIT License | https://tailwindcss.com
@@ -865,8 +865,23 @@ video {
 .max-h-full {
   max-height: 100%;
 }
+.max-h-\[350px\] {
+  max-height: 350px;
+}
+.max-h-\[400px\] {
+  max-height: 400px;
+}
+.max-h-\[450px\] {
+  max-height: 450px;
+}
 .min-h-\[40px\] {
   min-height: 40px;
+}
+.min-h-\[550px\] {
+  min-height: 550px;
+}
+.min-h-\[350px\] {
+  min-height: 350px;
 }
 .w-40 {
   width: 10rem;
@@ -884,6 +899,9 @@ video {
 .max-w-6xl {
   max-width: 72rem;
 }
+.max-w-\[80\%\] {
+  max-width: 80%;
+}
 .max-w-lg {
   max-width: 32rem;
 }
@@ -892,9 +910,6 @@ video {
 }
 .max-w-xs {
   max-width: 20rem;
-}
-.max-w-\[80\%\] {
-  max-width: 80%;
 }
 .flex-1 {
   flex: 1 1 0%;
@@ -1040,6 +1055,9 @@ video {
 .rounded-3xl {
   border-radius: 1.5rem;
 }
+.rounded-\[12px\] {
+  border-radius: 12px;
+}
 .rounded-full {
   border-radius: 9999px;
 }
@@ -1048,9 +1066,6 @@ video {
 }
 .rounded-xl {
   border-radius: 0.75rem;
-}
-.rounded-\[12px\] {
-  border-radius: 12px;
 }
 .rounded-b-\[15px\] {
   border-bottom-right-radius: 15px;
@@ -1067,6 +1082,12 @@ video {
 }
 .border-t-2 {
   border-top-width: 2px;
+}
+.border-\[\#01e0572d\] {
+  border-color: #01e0572d;
+}
+.border-\[\#e8e8e82d\] {
+  border-color: #e8e8e82d;
 }
 .border-gray-800 {
   --tw-border-opacity: 1;
@@ -1086,11 +1107,9 @@ video {
 .border-white\/5 {
   border-color: rgb(255 255 255 / 0.05);
 }
-.border-\[\#01e0572d\] {
-  border-color: #01e0572d;
-}
-.border-\[\#e8e8e82d\] {
-  border-color: #e8e8e82d;
+.bg-\[\#01e056\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(1 224 86 / var(--tw-bg-opacity));
 }
 .bg-emerald-300\/20 {
   background-color: rgb(110 231 183 / 0.2);
@@ -1124,10 +1143,6 @@ video {
 }
 .bg-white\/10 {
   background-color: rgb(255 255 255 / 0.1);
-}
-.bg-\[\#01e056\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(1 224 86 / var(--tw-bg-opacity));
 }
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
@@ -1271,12 +1286,12 @@ video {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
+.text-\[15px\] {
+  font-size: 15px;
+}
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-.text-\[15px\] {
-  font-size: 15px;
 }
 .font-bold {
   font-weight: 700;
@@ -1363,6 +1378,11 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
 .transition-colors {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1370,11 +1390,6 @@ video {
 }
 .transition-transform {
   transition-property: transform;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-.transition-all {
-  transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
@@ -1387,11 +1402,14 @@ video {
 .duration-\[500ms\] {
   transition-duration: 500ms;
 }
-.ease-in-out {
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.duration-100 {
+  transition-duration: 100ms;
 }
 .ease-\[cubic-bezier\(0\.77\2c 0\2c 0\.175\2c 1\)\] {
   transition-timing-function: cubic-bezier(0.77,0,0.175,1);
+}
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .\[animation-duration\:1000s\] {
   animation-duration: 1000s;
@@ -1471,6 +1489,14 @@ html {
   --tw-content: '';
   content: var(--tw-content);
 }
+.hover\:-translate-y-1:hover {
+  --tw-translate-y: -0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.hover\:-translate-y-5:hover {
+  --tw-translate-y: -1.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
 .hover\:-rotate-3:hover {
   --tw-rotate: -3deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1486,12 +1512,25 @@ html {
 .hover\:bg-white\/75:hover {
   background-color: rgb(255 255 255 / 0.75);
 }
+.hover\:bg-gray-100:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+.hover\:bg-gray-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+}
 .hover\:text-gray-950:hover {
   --tw-text-opacity: 1;
   color: rgb(3 7 18 / var(--tw-text-opacity));
 }
 .hover\:underline:hover {
   text-decoration-line: underline;
+}
+.hover\:shadow-2xl:hover {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 .hover\:\[animation-play-state\:paused\]:hover {
   animation-play-state: paused;
@@ -1652,6 +1691,10 @@ html {
     position: absolute;
   }
 
+  .lg\:relative {
+    position: relative;
+  }
+
   .lg\:-top-10 {
     top: -2.5rem;
   }
@@ -1680,12 +1723,66 @@ html {
     height: 100%;
   }
 
+  .lg\:h-auto {
+    height: auto;
+  }
+
+  .lg\:max-h-\[450px\] {
+    max-height: 450px;
+  }
+
   .lg\:w-auto {
     width: auto;
   }
 
+  .lg\:w-full {
+    width: 100%;
+  }
+
   .lg\:max-w-none {
     max-width: none;
+  }
+
+  .lg\:max-w-2\.5 {
+    max-width: 0.625rem;
+  }
+
+  .lg\:max-w-md {
+    max-width: 28rem;
+  }
+
+  .lg\:max-w-full {
+    max-width: 100%;
+  }
+
+  .lg\:max-w-max {
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+
+  .lg\:max-w-fit {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+
+  .lg\:max-w-xs {
+    max-width: 20rem;
+  }
+
+  .lg\:max-w-screen-lg {
+    max-width: 1200px;
+  }
+
+  .lg\:max-w-screen-md {
+    max-width: 768px;
+  }
+
+  .lg\:max-w-screen-sm {
+    max-width: 375px;
+  }
+
+  .lg\:max-w-prose {
+    max-width: 65ch;
   }
 
   .lg\:scale-100 {

@@ -1,6 +1,7 @@
 "use client";
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
+import facialemotionrecognition from "@/assets/images/facialexpression.png";
+import ppedetection from "@/assets/images/PPEdetection.png";
+import spotifywidgets from "@/assets/images/spotifywidgets.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
@@ -11,42 +12,55 @@ import { Card } from "@/components/card";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "",
+    year: "",
+    title: "Facial Expression Recognition",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "OpenCV" },
+      { title: "DeepFace" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    link: "https://github.com/manishpatil55/facial-expression-recognition",
+    image: facialemotionrecognition,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "",
+    year: "",
+    title: "PPE Detection & Alert System",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "OpenCV" },
+      { title: "YOLOv11" },
+      { title: "TWILIO" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+    link: "https://github.com/manishpatil55/PPE-Detection",
+    image: ppedetection,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
+    company: "",
+    year: "",
+    title: "Spotify Widget",
+    results: [
+      { title: "Python" },
+      { title: "HTML CSS JS" },
+      { title: "Spotify API" },
+    ],
+    link: "https://github.com/manishpatil55/spotify-widgets",
+    image: spotifywidgets,
+  },
+  {
+    company: "",
+    year: "",
     title: "AI Startup Landing Page",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
+    link: "https://github.com/manishpatil55/spotify-widgets",
     image: aiStartupLandingPage,
   },
+  
 ];
+
 
 export const ProjectsSection = () => {
   return (
@@ -59,17 +73,19 @@ export const ProjectsSection = () => {
           />
           <div className="mt-10 md:mt-20 flex flex-col gap-20">
             {portfolioProjects.map((project, projectIndex) => (
-              <Card key={project.title} className="px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky top-16" 
+              <Card key={project.title} className="px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky top-16 lg:max-h-[450px]" 
               style={{
                 top: `calc(64px + ${projectIndex * 38}px)`,
               }}>
                 <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                   <div className="lg:pb-16">
-                    <div className="bg-gradient-to-r from-emerald-300 to-sky-400 inline-flex gap-2 font-bold uppercase tracking-widest text-sm text-transparent bg-clip-text">
-                      <span>{project.company}</span>
-                      <span>&bull;</span>
-                      <span>{project.year}</span>
-                    </div>
+                    {(project.company || project.year) && (
+                      <div className="bg-gradient-to-r from-emerald-300 to-sky-400 inline-flex gap-2 font-bold uppercase tracking-widest text-sm text-transparent bg-clip-text">
+                        {project.company && <span>{project.company}</span>}
+                        {project.company && project.year && <span>&bull;</span>}
+                        {project.year && <span>{project.year}</span>}
+                      </div>
+                    )}
                     <h3 className="font-serif text-2xl mt-2 md:mt-5 md:text-4xl">{project.title}</h3>
                     <hr className="border-t-2 border-white/5 mt-4 md:mt-5"/>
                     <ul className="flex flex-col gap-4 mt-4 md:mt-5">
@@ -81,8 +97,8 @@ export const ProjectsSection = () => {
                       ))}
                     </ul> 
                     <a href={project.link}>
-                      <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
-                        <span>Visit Live Site</span>
+                      <button className="inline-flex items-center justify-center gap-2 mt-8 md:w-auto w-full border border-white bg-white font-semibold text-gray-950 h-12 px-6 rounded-xl  hover:bg-white/75  hover:border-gray-950 hover:text-gray-950 transition-colors cursor-pointer">
+                        <span>Source Code</span>
                         <ArrowUpRightIcon className="size-4"/>
                       </button>
                     </a>
@@ -98,6 +114,4 @@ export const ProjectsSection = () => {
      </section>
   );
 };
-
-
 
