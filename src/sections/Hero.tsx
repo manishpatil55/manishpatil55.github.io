@@ -70,12 +70,7 @@ export const HeroSection = () => {
           </div>
         </div>
         <div className="max-w-lg mx-auto">
-          <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">Building Exceptional User Experiences</h1>
-          <p className="mt-4 text-center text-white/60 md:text-lg">
-          I&apos;m a software engineer specializing in building exceptional digital
-          experiences. Currently, I&apos;m focused on building accessible, human-centered
-          products at Upstatement
-          </p>
+          <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">Manish Patil</h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
           I&apos;m Manish Patil, a software engineer and CSE student with a passion for crafting seamless web experiences and intelligent applications. 
           I enjoy turning ideas into reality through clean code and thoughtful design.
