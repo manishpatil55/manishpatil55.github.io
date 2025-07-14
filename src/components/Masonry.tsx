@@ -96,7 +96,7 @@ const Masonry: React.FC<MasonryProps> = ({
   colorShiftOnHover = false,
 }) => {
   const columns = useMedia(
-    ["(min-width:1200px)", "(min-width:768px)", "(min-width:320px)"],
+    ["(min-width:1200px)", "(min-width:768px)", "(min-width:375px)"],
     [3, 2, 1],
     1
   );

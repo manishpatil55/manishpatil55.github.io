@@ -4,12 +4,12 @@ import React from "react";
 
 const ResumeButton = () => {
   const handleDownload = () => {
-    const resumeUrl = "/Manish_Kakulde_Resume.pdf";
-//  const resumeUrl = "/Manish_Patil_Resume.pdf";
+    const resumeUrl = "/Manish_Patil_Resume.pdf";
+//  const resumeUrl = "/Manish_Kakulde_Resume.pdf";
     const link = document.createElement("a");
     link.href = resumeUrl;
-    link.download = "Manish_Kakulde_Resume.pdf";
-//  link.download = "Manish_Patil_Resume.pdf";  
+    link.download = "Manish_Patil_Resume.pdf";
+//  link.download = "Manish_Kakulde_Resume.pdf";  
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
