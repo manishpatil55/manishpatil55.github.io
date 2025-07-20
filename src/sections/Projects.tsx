@@ -27,16 +27,8 @@ const portfolioProjects = [
   },
   {
     id: "project3",
-    img: spotifywidgets.src,
-    height: 410,
-    url: "https://github.com/manishpatil55/spotify-widgets",
-    title: "Spotify Widget",
-    tech: ["Python, Spotify API, HTML, CSS"],
-  },
-  {
-    id: "project10",
     img: "https://spotify-widgets.vercel.app/api/spotify",
-    height: 240,
+    height: 230,
     url: "https://github.com/manishpatil55/spotify-widgets",
     title: "Spotify Widget",
     tech: ["Python, Spotify API, HTML, CSS"],
