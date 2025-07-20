@@ -6,6 +6,7 @@ import spotifywidgets from "@/assets/images/spotifywidgets.png";
 import demo from "@/assets/images/demo.png";
 import { SectionHeader } from "@/components/SectionHeader";
 import Masonry from "@/components/Masonry";
+import SpotifyWidget from "@/components/SpotifyWidget";
 
 const portfolioProjects = [
   {
@@ -32,6 +33,15 @@ const portfolioProjects = [
     title: "Spotify Widget",
     tech: ["Python, Spotify API, HTML, CSS"],
   },
+  {
+    id: "project10",
+    img: "https://spotify-widgets.vercel.app/api/spotify",
+    height: 240,
+    url: "https://github.com/manishpatil55/spotify-widgets",
+    title: "Spotify Widget",
+    tech: ["Python, Spotify API, HTML, CSS"],
+  },
+
   {
     id: "project4",
     img: demo.src,

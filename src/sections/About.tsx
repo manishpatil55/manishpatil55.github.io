@@ -17,6 +17,7 @@ import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
 import { motion } from "framer-motion";
 import { useRef } from "react";
+import SpotifyWidget from "@/components/SpotifyWidget";
 
 const toolboxItems = [
   { title: "GitHub", icon: GitHubIcon },
@@ -48,6 +49,12 @@ export const AboutSection = () => {
           title="A Glimpse Into My World"
           description="Learn more about me and my journey as a developer."
         />
+
+        {/* Spotify Widget - Fixed Position */}
+        <div className="fixed bottom-6 right-6 z-50">
+          <SpotifyWidget />
+        </div>
+
         <div className="mt-20 flex flex-col gap-8">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
             <Card className="h-[320px] md:col-span-2 lg:col-span-1">
