@@ -3,10 +3,11 @@
 import facialemotionrecognition from "@/assets/images/facialexpression.png";
 import ppedetection from "@/assets/images/PPEdetection.png";
 import spotifywidgets from "@/assets/images/spotifywidgets.png";
+import portfolio from "@/assets/images/portfolio.gif";
 import demo from "@/assets/images/demo.png";
 import { SectionHeader } from "@/components/SectionHeader";
 import Masonry from "@/components/Masonry";
-import SpotifyWidget from "@/components/SpotifyWidget";
+
 
 const portfolioProjects = [
   {
@@ -33,9 +34,17 @@ const portfolioProjects = [
     title: "Spotify Widget",
     tech: ["Python, Spotify API, HTML, CSS"],
   },
-
   {
     id: "project4",
+    img: portfolio.src,
+    height: 350,
+    url: "https://github.com/manishpatil55/manishpatil55.github.io",
+    title: "Dev Portfolio",
+    tech: ["Next.js, React, TypeScript, Tailwind CSS"],
+  },
+
+  {
+    id: "project44",
     img: demo.src,
     height: 360,
     url: "https://github.com/manishpatil55/",
@@ -43,7 +52,7 @@ const portfolioProjects = [
     tech: ["Tech 1", "Tech 2", "Tech 3"],
   },
   {
-    id: "project5",
+    id: "project55",
     img: demo.src,
     height: 420,
     url: "https://github.com/manishpatil55/",
