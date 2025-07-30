@@ -40,7 +40,7 @@ const portfolioProjects = [
     height: 350,
     url: "https://github.com/manishpatil55/manishpatil55.github.io",
     title: "Dev Portfolio",
-    tech: ["Next.js, React, TypeScript, Tailwind CSS"],
+    tech: ["Next.js, React, TypeScript, Tailwind CSS, Google Analytics"],
   },
 
   {
