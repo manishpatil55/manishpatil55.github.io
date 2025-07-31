@@ -78,6 +78,7 @@ interface MasonryProps {
   duration?: number;
   stagger?: number;
   animateFrom?: "bottom" | "top" | "left" | "right" | "center" | "random";
+  animate?: boolean;
   scaleOnHover?: boolean;
   hoverScale?: number;
   blurToFocus?: boolean;
@@ -90,6 +91,7 @@ const Masonry: React.FC<MasonryProps> = ({
   duration = 0.6,
   stagger = 0.05,
   animateFrom = "bottom",
+  animate = true,
   scaleOnHover = true,
   hoverScale = 0.95,
   blurToFocus = true,
@@ -167,6 +169,23 @@ const Masonry: React.FC<MasonryProps> = ({
   useLayoutEffect(() => {
     if (!imagesReady) return;
 
+
+    // ✅ if animation is disabled → instantly place elements without GSAP
+    if (animate === false) {
+      grid.forEach((item) => {
+        const el = document.querySelector<HTMLElement>(`[data-key="${item.id}"]`);
+        if (el) {
+          el.style.opacity = "1";
+          el.style.transform = `translate(${item.x}px, ${item.y}px)`;
+          el.style.width = `${item.w}px`;
+          el.style.height = `${item.h}px`;
+          el.style.filter = "blur(0px)";
+        }
+      });
+      return;
+    }
+
+    // ✅ otherwise keep GSAP animations
     grid.forEach((item, index) => {
       const selector = `[data-key="${item.id}"]`;
       const animProps = { x: item.x, y: item.y, width: item.w, height: item.h };
@@ -203,7 +222,7 @@ const Masonry: React.FC<MasonryProps> = ({
     });
 
     hasMounted.current = true;
-  }, [grid, imagesReady, stagger, animateFrom, blurToFocus, duration, ease]);
+  }, [grid, imagesReady,  stagger, animate, animateFrom, blurToFocus, duration, ease]);
 
   const handleMouseEnter = (id: string, element: HTMLElement) => {
     if (scaleOnHover) {

@@ -78,6 +78,7 @@ export const ProjectsSection = () => {
             duration={0.6}
             stagger={0.05}
             animateFrom="random" // "bottom" | "top" | "left" | "right" | "center" | "random";
+            animate={false}
             scaleOnHover={true}
             hoverScale={0.95}
             blurToFocus={true}
