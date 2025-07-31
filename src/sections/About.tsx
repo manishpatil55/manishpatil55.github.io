@@ -109,7 +109,7 @@ export const AboutSection = () => {
               />
             */}
               <iframe 
-                src="https://www.google.com/maps?q=Pune,India&t=k&output=embed" 
+                src="https://www.google.com/maps?q=Pune,India&t=k&output=embed"
                 width="100%" 
                 height="320" 
                 style={{ border: 0 }}
