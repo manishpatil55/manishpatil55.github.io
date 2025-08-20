@@ -169,7 +169,6 @@ const Masonry: React.FC<MasonryProps> = ({
   useLayoutEffect(() => {
   //  if (!imagesReady) return;
 
-
     // ✅ if animation is disabled → instantly place elements without GSAP
     if (animate === false) {
       grid.forEach((item) => {
