@@ -167,7 +167,7 @@ const Masonry: React.FC<MasonryProps> = ({
   const hasMounted = useRef(false);
 
   useLayoutEffect(() => {
-    if (!imagesReady) return;
+  //  if (!imagesReady) return;
 
 
     // ✅ if animation is disabled → instantly place elements without GSAP
