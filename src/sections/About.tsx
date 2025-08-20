@@ -2,12 +2,7 @@
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/card";
 import StarIcon from "@/assets/icons/star.svg";
-import bookImage from "@/assets/images/book-cover.png";
-
-
-import bookImage2 from "@/assets/images/The-Alchemist.png";
-
-
+import bookImage from "@/assets/images/The-Alchemist.png";
 import Image from "next/image";
 import GitHubIcon from "@/assets/icons/github.svg";
 import HTMLIcon from "@/assets/icons/html5.svg";
@@ -71,11 +66,6 @@ export const AboutSection = () => {
               />
               <div className="w-40 mx-auto mt-2 md:mt-0">
                 <Image src={bookImage} alt="Cover of the book I read" />
-
-                
-                <Image src={bookImage2} alt="Cover of the book I read" />
-
-
               </div>
             </Card>
             <Card className="h-[320px] md:col-span-3 lg:col-span-2">
