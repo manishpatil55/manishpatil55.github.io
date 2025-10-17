@@ -4,6 +4,7 @@ import facialemotionrecognition from "@/assets/images/facialexpression.png";
 import ppedetection from "@/assets/images/PPEdetection.png";
 import spotifywidgets from "@/assets/images/spotifywidgets.png";
 import portfolio from "@/assets/images/portfolio.gif";
+import summarizer from "@/assets/images/Summarizer-dark.png";
 import demo from "@/assets/images/demo.png";
 import { SectionHeader } from "@/components/SectionHeader";
 import Masonry from "@/components/Masonry";
@@ -42,7 +43,16 @@ const portfolioProjects = [
     title: "Dev Portfolio",
     tech: ["Next.js, React, TypeScript, Tailwind CSS, Google Analytics"],
   },
+  {
+    id: "project5",
+    img: summarizer.src,
+    height: 280,
+    url: "https://github.com/manishpatil55/smart-summarizer",
+    title: "Smart Summarizer",
+    tech: ["Next.js, React, TypeScript, Tailwind CSS, Google Analytics"],
+  },
 
+  /*
   {
     id: "project44",
     img: demo.src,
@@ -59,7 +69,10 @@ const portfolioProjects = [
     title: "Another Demo",
     tech: ["Tech A", "Tech B", "Tech C"],
   },
+  */
+ 
 ];
+
 
 export const ProjectsSection = () => {
   return (
