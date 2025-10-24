@@ -49,7 +49,8 @@ const portfolioProjects = [
     height: 280,
     url: "https://github.com/manishpatil55/smart-summarizer",
     title: "Smart Summarizer",
-    tech: ["Next.js, React, TypeScript, Tailwind CSS, Google Analytics"],
+    tech: ["Next.js, React, Tailwind CSS, Google Analytics, Google Gemini API, Vercel"],
+     
   },
 
   /*
