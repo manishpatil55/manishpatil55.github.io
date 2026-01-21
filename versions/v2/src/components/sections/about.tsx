@@ -58,7 +58,7 @@ const LOGOS_2 = [
   { node: <img src="/logos/googlecloud-original.svg" alt="Google Cloud" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Google Cloud", href: "https://cloud.google.com" },
   { node: <img src="/logos/vercel-original.svg" alt="Vercel" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100 invert dark:invert-1" />, title: "Vercel", href: "https://vercel.com/" },
   { node: <img src="/logos/supabase-original.svg" alt="Supabase" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Supabase", href: "https://supabase.com/" },
-  { node: <img src="/logos/firebase-studio-icon.svg" alt="Firebase" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100 invert dark:invert-1" />, title: "Firebase", href: "https://firebase.google.com/" },
+  { node: <img src="/logos/firebase-studio-icon.svg" alt="Firebase" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Firebase", href: "https://firebase.google.com/" },
 
   // --- DevOps ---
   { node: <img src="/logos/docker-original.svg" alt="Docker" className="h-10 w-10 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100 translate-y-1" />, title: "Docker", href: "https://www.docker.com/" },
