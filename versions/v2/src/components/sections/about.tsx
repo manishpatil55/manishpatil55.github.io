@@ -46,7 +46,7 @@ const LOGOS = [
   //{ node: <img src="/logos/redis-original.svg" alt="Redis" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Redis", href: "https://redis.io/" },
   { node: <img src="/logos/openai.svg" alt="OpenAI" className="h-8 w-auto filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100 invert dark:invert-1" />, title: "OpenAI", href: "https://openai.com" },
   { node: <img src="/logos/claude-color.svg" alt="Claude" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Claude", href: "https://www.anthropic.com/" },
-  { node: <img src="/logos/deepseek-color.png" alt="DeepSeek" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "DeepSeek", href: "https://www.deepseek.com/" },
+  { node: <img src="/logos/deepseek-original.svg" alt="DeepSeek" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "DeepSeek", href: "https://www.deepseek.com/" },
   { node: <img src="/logos/gemini-color.svg" alt="Gemini" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Gemini", href: "https://deepmind.google/technologies/gemini/" },
   { node: <img src="/logos/colab-color.svg" alt="Google Colab" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Google Colab", href: "https://colab.research.google.com/" },
   { node: <img src="/logos/huggingface.svg" alt="Hugging Face" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Hugging Face", href: "https://huggingface.co/" },
@@ -58,7 +58,7 @@ const LOGOS_2 = [
   { node: <img src="/logos/googlecloud-original.svg" alt="Google Cloud" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Google Cloud", href: "https://cloud.google.com" },
   { node: <img src="/logos/vercel-original.svg" alt="Vercel" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100 invert dark:invert-1" />, title: "Vercel", href: "https://vercel.com/" },
   { node: <img src="/logos/supabase-original.svg" alt="Supabase" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Supabase", href: "https://supabase.com/" },
-  { node: <img src="/logos/firebase.svg" alt="Firebase" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Firebase", href: "https://firebase.google.com/" },
+  { node: <img src="/logos/firebase-studio-icon.svg" alt="Firebase" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Firebase", href: "https://firebase.google.com/" },
 
   // --- DevOps ---
   { node: <img src="/logos/docker-original.svg" alt="Docker" className="h-10 w-10 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100 translate-y-1" />, title: "Docker", href: "https://www.docker.com/" },
