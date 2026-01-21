@@ -3,6 +3,7 @@
 
 # Next.js build output
 .next
+out
 
 # node_modules
 node_modules
@@ -13,3 +14,13 @@ node_modules
 # Environment variables
 .env
 .env.local
+
+# Package manager locks in subdirectories (keep root only)
+# versions/*/package-lock.json
+
+# IDE
+.vscode
+.idea
+
+# Turbopack
+.turbo
