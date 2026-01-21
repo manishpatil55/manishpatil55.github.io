@@ -58,7 +58,7 @@ const LOGOS_2 = [
   { node: <img src="/logos/googlecloud-original.svg" alt="Google Cloud" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Google Cloud", href: "https://cloud.google.com" },
   { node: <img src="/logos/vercel-original.svg" alt="Vercel" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100 invert dark:invert-1" />, title: "Vercel", href: "https://vercel.com/" },
   { node: <img src="/logos/supabase-original.svg" alt="Supabase" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Supabase", href: "https://supabase.com/" },
-  { node: <img src="/logos/firebase-studio-icon.svg" alt="Firebase" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Firebase", href: "https://firebase.google.com/" },
+  { node: <img src="/logos/firebase.svg" alt="Firebase" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Firebase", href: "https://firebase.google.com/" },
 
   // --- DevOps ---
   { node: <img src="/logos/docker-original.svg" alt="Docker" className="h-10 w-10 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100 translate-y-1" />, title: "Docker", href: "https://www.docker.com/" },
@@ -74,10 +74,9 @@ const LOGOS_2 = [
   //{ node: <img src="/logos/grafana-original.svg" alt="Grafana" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Grafana", href: "https://grafana.com/" },
 
   // --- Tools & Editors ---
-  { node: <img src="/logos/canva.svg" alt="Canva" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Canva", href: "https://www.canva.com/" },
   { node: <img src="/logos/github-original.svg" alt="GitHub" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100 invert dark:invert-1" />, title: "GitHub", href: "https://github.com/" },
   { node: <img src="/logos/git-original.svg" alt="Git" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Git", href: "https://git-scm.com/" },
-  { node: <img src="/logos/cursor.svg" alt="Cursor" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Cursor", href: "https://cursor.sh/" },
+  { node: <img src="/logos/cursor.svg" alt="Cursor" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100 invert dark:invert-1" />, title: "Cursor", href: "https://cursor.sh/" },
   { node: <img src="/logos/vscode-original.svg" alt="VS Code" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "VS Code", href: "https://code.visualstudio.com/" },
   { node: <img src="/logos/antigravity-original.svg" alt="Google Antigravity" className="h-8 w-auto filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Google Antigravity", href: "https://idx.google.com/" },
   { node: <img src="/logos/lovable-color.svg" alt="Lovable" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Lovable", href: "https://lovable.dev/" },
