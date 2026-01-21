@@ -98,12 +98,12 @@ const Featured = ({ data }: FeaturedProps) => {
                     isEven ? "justify-end mr-[-10px]" : "justify-start ml-[-10px]"
                   )}>
                     {github && (
-                      <a href={github} aria-label="GitHub Link" className="p-[10px] hover:text-green w-10 h-10 flex justify-center items-center">
+                      <a href={github} aria-label="GitHub Link" target="_blank" rel="noreferrer" className="p-[10px] hover:text-green w-10 h-10 flex justify-center items-center">
                         <Icon name="GitHub" />
                       </a>
                     )}
                     {external && (
-                      <a href={external} aria-label="External Link" className="p-[10px] hover:text-green w-10 h-10 flex justify-center items-center">
+                      <a href={external} aria-label="External Link" target="_blank" rel="noreferrer" className="p-[10px] hover:text-green w-10 h-10 flex justify-center items-center">
                         <Icon name="External" />
                       </a>
                     )}
