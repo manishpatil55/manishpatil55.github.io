@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --dark-navy: #020c1b;
+    --navy: #051020;
+    --light-navy: #112240;
+    --lightest-navy: #233554;
+    --navy-shadow: rgba(5, 16, 32, 0.7);
+
+    /* ... rest of variables */
+}
+
+html {
+    @apply scroll-smooth;
+}
+
+body {
+    @apply bg-navy text-slate font-sans text-xl leading-[1.3] antialiased;
+}
+
+::selection {
+    @apply bg-lightest-navy text-lightest-slate;
+}
+
+/* Scrollbar Styles */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: var(--dark-slate) var(--navy);
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--navy);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--dark-slate);
+    border: 3px solid var(--navy);
+    border-radius: 10px;
+}
+
+@layer utilities {
+    .counter-reset-section {
+        counter-reset: section;
+    }
+
+    .counter-increment-section {
+        counter-increment: section;
+    }
+
+    .counter-increment-item {
+        counter-increment: item;
+    }
+}

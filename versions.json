@@ -1,0 +1,17 @@
+{
+    "activeVersion": "v2",
+    "versions": {
+        "v1": {
+            "name": "OG Dev Portfolio",
+            "path": "versions/v1",
+            "created": "2024-11-08",
+            "description": "First portfolio with Spotify widget, GSAP animations"
+        },
+        "v2": {
+            "name": "v2",
+            "path": "versions/v2",
+            "created": "2026-01-21",
+            "description": "Redesigned portfolio with new design system"
+        }
+    }
+}
