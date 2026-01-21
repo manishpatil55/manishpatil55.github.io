@@ -45,8 +45,8 @@ const LOGOS = [
   //{ node: <img src="/logos/mysql-original.svg" alt="MySQL" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "MySQL", href: "https://www.mysql.com/" },
   //{ node: <img src="/logos/redis-original.svg" alt="Redis" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Redis", href: "https://redis.io/" },
   { node: <img src="/logos/openai.svg" alt="OpenAI" className="h-8 w-auto filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100 invert dark:invert-1" />, title: "OpenAI", href: "https://openai.com" },
-  { node: <img src="/logos/claude.svg" alt="Claude" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Claude", href: "https://www.anthropic.com/" },
-  { node: <img src="/logos/deepseek.png" alt="DeepSeek" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "DeepSeek", href: "https://www.deepseek.com/" },
+  { node: <img src="/logos/claude-color.svg" alt="Claude" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Claude", href: "https://www.anthropic.com/" },
+  { node: <img src="/logos/deepseek-color.png" alt="DeepSeek" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "DeepSeek", href: "https://www.deepseek.com/" },
   { node: <img src="/logos/huggingface.svg" alt="Hugging Face" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Hugging Face", href: "https://huggingface.co/" },
 ];
 
@@ -75,10 +75,10 @@ const LOGOS_2 = [
   { node: <img src="/logos/canva.svg" alt="Canva" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Canva", href: "https://www.canva.com/" },
   { node: <img src="/logos/github-original.svg" alt="GitHub" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100 invert dark:invert-1" />, title: "GitHub", href: "https://github.com/" },
   { node: <img src="/logos/git-original.svg" alt="Git" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Git", href: "https://git-scm.com/" },
-  { node: <img src="/logos/cursor.png" alt="Cursor" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Cursor", href: "https://cursor.sh/" },
+  { node: <img src="/logos/cursor.svg" alt="Cursor" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Cursor", href: "https://cursor.sh/" },
   { node: <img src="/logos/vscode-original.svg" alt="VS Code" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "VS Code", href: "https://code.visualstudio.com/" },
   { node: <img src="/logos/antigravity-original.svg" alt="Google Antigravity" className="h-8 w-auto filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Google Antigravity", href: "https://idx.google.com/" },
-  { node: <img src="/logos/lovable.png" alt="Lovable" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Lovable", href: "https://lovable.dev/" },
+  { node: <img src="/logos/lovable-color.svg" alt="Lovable" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Lovable", href: "https://lovable.dev/" },
   { node: <img src="/logos/replit.svg" alt="Replit" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Replit", href: "https://replit.com/" },
   { node: <img src="/logos/n8n.svg" alt="n8n" className="h-10 w-10 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100 translate-y-1" />, title: "n8n", href: "https://n8n.io/" },
   //{ node: <img src="/logos/postman-original.svg" alt="Postman" className="h-8 w-8 filter grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100" />, title: "Postman", href: "https://www.postman.com/" },
